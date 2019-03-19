@@ -26,33 +26,29 @@ def AlgorithmFunc(dataMat, labelMat,testMat,submitfile):
     from sklearn.neighbors import KNeighborsClassifier
     from sklearn.svm import SVC
     from sklearn.tree import DecisionTreeClassifier
-    from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+    from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier,ExtraTreesClassifier
     from sklearn.naive_bayes import GaussianNB
-    # from sklearn.lda import LDA
-    # from sklearn.qda import QDA
 
     trainSet, testSet, trainLabels, testLabels = train_test_split(dataMat,labelMat,
                                                                test_size=0.3,random_state=400)
     names = ['Nearest-Neighbors','Linear-SVM', 'RBF-SVM','Decision-Tree',
-             'Random-Forest', 'AdaBoost', 'Naiva-Bayes']
+             'Random-Forest', 'AdaBoost', 'Naiva-Bayes', 'ExtraTrees']
 
     classifiers = [
-        KNeighborsClassifier(3),
-        SVC(kernel='linear', C=0.025),
+        KNeighborsClassifier(),
+        SVC(kernel='rbf', C=50, max_iter=5000),
         SVC(gamma=2, C=1),
-        DecisionTreeClassifier(max_depth=5),
-        RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
+        DecisionTreeClassifier(),
+        RandomForestClassifier(),
         AdaBoostClassifier(),
         GaussianNB(),
+        ExtraTreesClassifier(),
     ]
 
     for name,classifiers in zip(names, classifiers):
         classifiers.fit(trainSet, trainLabels)
         score = classifiers.score(testSet, testLabels)
         print('%s   is     %s'%(name, score))
-
-
-
         # from sklearn.metrics import confusion_matrix
         # test_accurcy = accuracy_score(testLabels,test_pred)
         # # test_accurcy = xgbModel.score(testSet, test_pred) * 100
