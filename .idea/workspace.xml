@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/PublishBickUsageForecast/RandomForest_train.py" line="118" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="269b8cdc-6a6c-4855-bf63-10d21b7d69bd" name="Default Changelist" comment="" />
+    <list default="true" id="269b8cdc-6a6c-4855-bf63-10d21b7d69bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PublishBickUsageForecast/RandomForest_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReviewTrafficAccidentClaims/xgboost_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,21 +17,31 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sofasofa_learn$test.coverage" NAME="test Coverage Results" MODIFIED="1556501324513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PublishBickUsageForecast" />
+    <SUITE FILE_PATH="coverage/sofasofa_learn$RandomForest_train.coverage" NAME="RandomForest_train Coverage Results" MODIFIED="1556535915195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PublishBickUsageForecast" />
     <SUITE FILE_PATH="coverage/sofasofa_learn$xgboost_train.coverage" NAME="xgboost_train Coverage Results" MODIFIED="1556519409764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PublishBickUsageForecast" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PublishBickUsageForecast/xgboost_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state relative-caret-position="217">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PublishBickUsageForecast/RandomForest_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
-                <element signature="e#1223#1943#0" />
-                <element signature="e#2034#2624#0" />
-                <element signature="e#2743#3363#0" />
-                <element signature="e#3449#4066#0" />
-                <element signature="e#4224#4910#0" />
+                <element signature="e#20#38#0" expanded="true" />
+                <element signature="e#1133#1944#0" />
+                <element signature="e#2027#2879#0" />
+                <element signature="e#2962#3816#0" />
+                <element signature="e#3899#4720#0" />
               </folding>
             </state>
           </provider>
@@ -47,14 +64,17 @@
       <list>
         <option value="$PROJECT_DIR$/PublishBickUsageForecast/test.py" />
         <option value="$PROJECT_DIR$/PublishBickUsageForecast/xgboost_train.py" />
+        <option value="$PROJECT_DIR$/ReviewTrafficAccidentClaims/xgboost.py" />
+        <option value="$PROJECT_DIR$/PublishBickUsageForecast/RandomForest.py" />
+        <option value="$PROJECT_DIR$/PublishBickUsageForecast/RandomForest_train.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="800" />
-    <option name="y" value="142" />
-    <option name="width" value="1475" />
-    <option name="height" value="1032" />
+    <option name="x" value="528" />
+    <option name="y" value="96" />
+    <option name="width" value="1604" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -72,6 +92,11 @@
               <item name="sofasofa-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="sofasofa-learn" type="462c0819:PsiDirectoryNode" />
               <item name="PublishBickUsageForecast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sofasofa-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sofasofa-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewTrafficAccidentClaims" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,7 +123,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xgboost_train">
+  <component name="RunManager" selected="Python.RandomForest_train">
+    <configuration name="RandomForest_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sofasofa-learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PublishBickUsageForecast" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PublishBickUsageForecast/RandomForest_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sofasofa-learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RandomForest_train" />
         <item itemvalue="Python.xgboost_train" />
         <item itemvalue="Python.test" />
       </list>
@@ -161,22 +209,23 @@
       <option name="presentableId" value="Default" />
       <updated>1555583639363</updated>
       <workItem from="1555583641629" duration="612000" />
-      <workItem from="1556498822367" duration="13735000" />
+      <workItem from="1556498822367" duration="21933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14347000" />
+    <option name="totallyTimeSpent" value="22545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="142" width="1475" height="1032" extended-state="0" />
+    <frame x="528" y="96" width="1604" height="1092" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14581844" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17670158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4971165" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,16 +271,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReviewTrafficAccidentClaims/xgboost_train.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1138" selection-start-line="1138" selection-end-line="1138" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PublishBickUsageForecast/xgboost_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        <state relative-caret-position="217">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PublishBickUsageForecast/RandomForest_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
-            <element signature="e#1223#1943#0" />
-            <element signature="e#2034#2624#0" />
-            <element signature="e#2743#3363#0" />
-            <element signature="e#3449#4066#0" />
-            <element signature="e#4224#4910#0" />
+            <element signature="e#20#38#0" expanded="true" />
+            <element signature="e#1133#1944#0" />
+            <element signature="e#2027#2879#0" />
+            <element signature="e#2962#3816#0" />
+            <element signature="e#3899#4720#0" />
           </folding>
         </state>
       </provider>
